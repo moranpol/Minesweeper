@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Cell = ({ details, updateFlag, revealCell }) => {
   const style = {
@@ -23,6 +23,7 @@ const Cell = ({ details, updateFlag, revealCell }) => {
       onContextMenu={(e) => updateFlag(e, details.x, details.y)}
     >
       {details.revealed ? details.value : ""}
+      {!details.revealed && details.flagged ? "F" : ""}
     </div>
   );
 };
