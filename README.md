@@ -11,7 +11,7 @@ It offers a web-based version with an intuitive user interface for an enjoyable 
 ## Getting Started:
 To play ReactMineSweep, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your_username/react-minesweep.git
+1. Clone the repository: git clone https://github.com/moranpol/Minesweeper.git
 2. Navigate to the project directory: cd minesweeper
 3. Install dependencies: npm install
 4. Start the development server: npm start
